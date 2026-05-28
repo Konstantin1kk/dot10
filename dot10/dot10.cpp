@@ -331,7 +331,7 @@ int main() {
     // 1. Записываем текущие данные в бинарный файл
     writeAlbumsToBinaryFile(allAlbums, albumCount, "albums.bin");
 
-    // 2. Создаем чистый массив структур и переменную для демонстрации честной загрузки
+    // 2. Создаем чистый массив структур и переменную для дем загрузки
     Album loadedAlbums[MAX_ALBUMS];
     int loadedCount = 0;
 
